@@ -1,6 +1,13 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+
+import type { Metadata } from 'next';
+import {
+  Geist,
+  Geist_Mono,
+} from 'next/font/google';
+
+import FloatingDock from '@/components/FloatingDock';
+import { socialMedialinks } from '@/constants/links';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +34,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className='absolute left-6 z-50 '>
+          <FloatingDock links={socialMedialinks} />
+        </div>
         {children}
       </body>
     </html>
