@@ -69,3 +69,19 @@ export const iconsgrp2 = [
   { icon: '/images/react-javascript-js-framework-facebook-svgrepo-com.svg', label: 'React', description: 'JavaScript library for building UIs', color: '#61DAFB' },
   { icon: '/images/typescript-svgrepo-com.svg', label: 'TypeScript', description: 'Statically typed superset of JavaScript', color: '#3178C6' },
 ];
+
+
+export const projects = [
+  {
+    title: "AWS Receipt Tracker",
+    description:
+      "A serverless app on AWS that extracts receipt data, stores it in DynamoDB, and sends email notifications via SES — all triggered by S3 uploads.",
+    link: "https://github.com/haris-al-hanafi/Reciept-Tracker-with-AWS.git",
+  },
+  {
+    title: "Portfolio",
+    description:
+      "A responsive Next.js portfolio with Tailwind and Framer Motion, featuring smooth animations and quick links to social profiles.",
+    link: "https://github.com/haris-al-hanafi/Portfolio.git",
+  },
+];
