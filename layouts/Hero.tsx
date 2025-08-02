@@ -21,14 +21,14 @@ function Hero() {
 
           {/* Updated info section with white/light text */}
           <div className='flex flex-col items-center gap-2 text-start'>
-            <h1 className='text-2xl text-start w-full font-semibold text-white dark:text-white'>
+            <h1 className='text-4xl text-start w-full font-semibold text-white dark:text-white'>
               Hey there, I'm Haris
             </h1>
-            <p className="uppercase text-sm font-semibold text-gray-300 dark:text-gray-300 text-start w-full">
+            <p className="uppercase text-lg md:text-xl font-semibold text-gray-300 dark:text-gray-300 text-start w-full">
               Cloud Engineer | Full Stack Next.js Developer | BCA Student
             </p>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 dark:text-gray-300 font-medium leading-relaxed max-w-2xl">
+            <p className="text-base text-sm md:text-xl text-gray-300 dark:text-gray-300 font-medium leading-relaxed max-w-2xl">
               BCA student at TMU Moradabad, passionate about cloud engineering. Skilled in Next.js, Linux, and networking. Constantly learning and building real-world projects.
             </p>
           </div>
