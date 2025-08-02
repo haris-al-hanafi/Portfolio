@@ -1,6 +1,5 @@
 "use client";
 import React, {
-  RefObject,
   useCallback,
   useEffect,
   useRef,
@@ -61,7 +60,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
   const [stars, setStars] = useState<StarProps[]>([]);
   const [planets, setPlanets] = useState<PlanetProps[]>([]);
   const [blackHoles, setBlackHoles] = useState<BlackHoleProps[]>([]);
-  const canvasRef: RefObject<HTMLCanvasElement> = useRef(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const planetColors = ["#FF6B6B", "#FFD93D", "#6BCB77", "#4D96FF", "#A66DD4"];
 
