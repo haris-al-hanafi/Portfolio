@@ -9,6 +9,8 @@ import {
 import FloatingDock from '@/components/FloatingDock';
 import { socialMedialinks } from '@/constants/links';
 
+import { ThemeProvider } from './context/ThemeProvider';
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -37,7 +39,7 @@ export default function RootLayout({
         <div className='absolute left-6 z-50 '>
           <FloatingDock links={socialMedialinks} />
         </div>
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

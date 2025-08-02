@@ -13,7 +13,7 @@ export default function Home() {
       <div className='absolute left-6 z-50 '>
         <FloatingDock links={socialMedialinks} />
       </div>
-      <div className='h-full sm:w-full w-[85%] mt-10 rounded-lg border border-gray-200 flex flex-col items-center justify-center'>
+      <div className='h-full sm:w-full w-[85%] mt-10 rounded-lg border dark:border border-b-gray-200 flex flex-col items-center justify-center'>
         <Hero />
         <WaveIcons />
        <Skills />

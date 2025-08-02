@@ -51,8 +51,8 @@ const WaveIcons = () => {
   };
 
   return (
-    <div className="relative overflow-hidden w-full h-96 flex justify-center bg-white flex-col mt-10">
-      <div className='absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white to-transparent z-10 flex items-center justify-center'>
+    <div className="relative overflow-hidden w-full h-96 flex justify-center bg-white dark:bg-[#0A0A0A] flex-col mt-10">
+      <div className='absolute top-0 left-0 w-full h-16 z-10 flex items-center justify-center'>
         <h1 className="text-center text-3xl md:text-4xl font-semibold mb-4">Skills</h1>
       </div>
 
